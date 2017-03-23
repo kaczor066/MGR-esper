@@ -1,0 +1,44 @@
+<configuration>
+    <!-- @see http://logback.qos.ch/manual/configuration.html -->
+
+    <property file="${cfg.path:-config/}app.properties"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -
+                %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}ChannelSimulator.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${log.path}EsperEngine.%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+
+            <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.mgr" level="${log.level}"/>
+
+    <root level="info">
+        <appender-ref ref="FILE"/>
+
+        <!-- 		<if condition='property("log.console.enabled").contains("true")'>
+                    <then> -->
+        <appender-ref ref="STDOUT"/>
+        <!-- 	</then>
+        </if> -->
+    </root>
+</configuration>

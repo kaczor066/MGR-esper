@@ -1,0 +1,55 @@
+15:47:26.659 [main] INFO  com.mgr.EsperEngineApp - Error: 
+java.io.FileNotFoundException: nullapp.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_45]
+	at com.mgr.JettyServer.createJetty(JettyServer.java:50) ~[classes/:na]
+	at com.mgr.JettyServer.start(JettyServer.java:30) ~[classes/:na]
+	at com.mgr.EsperEngineApp.start(EsperEngineApp.java:28) ~[classes/:na]
+	at com.mgr.EsperEngineApp.main(EsperEngineApp.java:18) ~[classes/:na]
+15:51:35.467 [main] INFO  com.mgr.EsperEngineApp - Error: 
+java.io.FileNotFoundException: nullapp.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_45]
+	at com.mgr.JettyServer.createJetty(JettyServer.java:50) ~[classes/:na]
+	at com.mgr.JettyServer.start(JettyServer.java:30) ~[classes/:na]
+	at com.mgr.EsperEngineApp.start(EsperEngineApp.java:28) ~[classes/:na]
+	at com.mgr.EsperEngineApp.main(EsperEngineApp.java:18) ~[classes/:na]
+15:53:48.371 [main] INFO  com.mgr.EsperEngineApp - Error: 
+java.io.FileNotFoundException: nullapp.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_45]
+	at com.mgr.JettyServer.createJetty(JettyServer.java:50) ~[classes/:na]
+	at com.mgr.JettyServer.start(JettyServer.java:30) ~[classes/:na]
+	at com.mgr.EsperEngineApp.start(EsperEngineApp.java:28) ~[classes/:na]
+	at com.mgr.EsperEngineApp.main(EsperEngineApp.java:18) ~[classes/:na]
+15:53:57.262 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+15:54:36.971 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+15:54:50.722 [main] TRACE com.mgr.EsperEngineApp - Esper Engine Started
+15:56:27.565 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+15:57:41.933 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+15:57:54.307 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+15:59:25.723 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+16:05:06.200 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+16:08:00.643 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+16:11:47.122 [main] INFO  com.mgr.EsperEngineApp - Esper Engine Started
+16:14:21.633 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:14:21.637 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:14:21.638 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:20:07.956 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:20:07.960 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:20:07.961 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:20:31.670 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:20:31.674 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:20:31.675 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:20:45.730 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:20:45.738 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:20:45.739 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:21:48.957 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:21:48.962 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:21:48.962 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
